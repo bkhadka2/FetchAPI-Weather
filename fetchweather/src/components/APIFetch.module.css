@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Lato:ital,wght@0,100;1,300&family=Poppins&family=Uchen&display=swap");
+.container__info {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  font-family: "Poppins", sans-serif;
+  max-width: 50%;
+  margin: 2rem auto;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  font-size: 0.7rem;
+  background-image: linear-gradient(to left, rgb(80, 80, 192), lightblue);
+  padding: 2rem 2rem;
+  align-items: center;
+  color: black;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.left {
+  width: 50%;
+}
+
+.sec {
+  display: flex;
+  width: 20rem;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.sec__button {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.sec__button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .container__info {
+    font-size: .4rem;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .left {
+    display: none;
+  }
+
+  .container__info {
+    font-size: 0.5rem;
+  }
+
+  .right {
+    width: 100%;
+  }
+}
