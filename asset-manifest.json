@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FetchAPI-Weather/static/css/main.42aa777a.css",
+    "main.js": "/FetchAPI-Weather/static/js/main.f6782ae8.js",
+    "index.html": "/FetchAPI-Weather/index.html",
+    "main.42aa777a.css.map": "/FetchAPI-Weather/static/css/main.42aa777a.css.map",
+    "main.f6782ae8.js.map": "/FetchAPI-Weather/static/js/main.f6782ae8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42aa777a.css",
+    "static/js/main.f6782ae8.js"
+  ]
+}
